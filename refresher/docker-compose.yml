@@ -1,0 +1,8 @@
+services:
+    build: .
+    restart: always
+    ports:
+      - '3031:4444'
+    environment:
+      - FLAG=FLAG{}
+

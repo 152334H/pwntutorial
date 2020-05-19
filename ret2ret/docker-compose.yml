@@ -1,0 +1,6 @@
+services:
+    build: .
+    restart: always
+    ports:
+      - '4448:4444'
+

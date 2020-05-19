@@ -1,0 +1,8 @@
+services:
+    build: .
+    restart: always
+    ports:
+      - '4445:4444'
+    environment:
+      - FLAG=Cyb3rSec{P0s1ti0n_Ind3p3nd3nt_xpl0it}
+
