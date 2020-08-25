@@ -1,3 +1,4 @@
+//usr/bin/gcc -fstack-protector-all -pie fstack_protector.c -o fstack_protector; exit
 #include <stdio.h>
 int main(){
     char s[64];

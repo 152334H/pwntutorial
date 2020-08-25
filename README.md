@@ -7,7 +7,7 @@ This repo has most of them.
 # How do I run this myself?
 
 0. cd into the challenge you want to setup
-1. Every directory has a `compile.sh`. Run that first.
+1. Every C file starts with a comment that doubles as a compilation command. Run ./<chal_name>.c to compile a challenge.
 2. `docker-compose build`, `docker-compose up -d`.
 3. Connect to `localhost:<port_inside_docker-compose.yml>` and enjoy!
 

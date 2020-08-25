@@ -1,3 +1,4 @@
+//usr/bin/gcc -fno-stack-protector -zexecstack ret2shell.c -o ret2shell.o; exit
 #include <stdio.h>
 #include <stdlib.h>
 int main(){

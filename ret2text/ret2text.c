@@ -1,3 +1,4 @@
+//usr/bin/gcc -fno-stack-protector -no-pie ret2text.c -o ret2text.o; exit
 #include <stdio.h>
 #include <stdlib.h>
 void get_flag(){ puts(getenv("FLAG")); }

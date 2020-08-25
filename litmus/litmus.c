@@ -1,3 +1,4 @@
+//usr/bin/gcc -fno-stack-protector litmus.c -o litmus.o; exit
 #include <stdio.h>
 #include <stdlib.h>
 void get_flag(){ puts(getenv("FLAG")); }
